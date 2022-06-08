@@ -1,0 +1,62 @@
+@media (max-width: 991px) {
+    .container {
+        width: 95vw;
+    }
+}
+@media (max-width: 572px) {
+    .header {
+        flex-direction: column;
+        &__official {
+            margin-top: 15px;
+        }
+        &__contacts {
+            margin-top: 15px;
+        }
+    }
+    .promo {
+        &__wrapper {
+            align-items: center;
+            text-align: center;
+        }
+        &__icons {
+            width: 80vw;
+            align-items: flex-end;
+        }
+    .button_main {
+        width: 60vw;
+    }
+    }
+    .benefits {
+        &__wrapper {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__block {
+           width: 80vw;
+           margin-bottom: 38px; 
+        }
+    }
+    .consultation {
+        padding: 50px 0;
+        margin: 0 auto;
+        height: 460px;
+        &__descr {
+            text-align: center;
+            margin-top: 25px;
+        }
+    .title {
+        &_left {
+            text-align: center;
+            width: 100%;
+        }
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 70%;
+    }
+    .button_submit {
+        width: 100%;
+    }
+    }
+}
